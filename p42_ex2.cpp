@@ -11,7 +11,6 @@ class mydata
 {
      string a;
      string b;
-
      public:
         mydata();
         ~mydata();
@@ -24,9 +23,7 @@ class mydata
 mydata::mydata()
 {
 cout << "\n";
-
 }
-
 
 //destructor
 mydata::~mydata()
@@ -41,7 +38,6 @@ void mydata::store(string name,string address)
 {
     a=name;
     b=address;
-
 }
 //
 // display name
@@ -51,7 +47,6 @@ void mydata::display()
 {
    cout << "\n" << a << " lives in " << b << "\n";
 }
-
 
 int main ()
 {
@@ -63,6 +58,5 @@ int main ()
   cin >> s2;
   data1.store(s1,s2);
   data1.display();
-
- return 0;
+  return 0;
 }

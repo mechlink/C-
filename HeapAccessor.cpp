@@ -7,7 +7,6 @@
 #include <iostream>
 using namespace std;
 
-
 class SimpleCat
 {
 public:
@@ -33,9 +32,7 @@ int main()
     cout << "Frisky is " << Frisky->GetAge()
               << " years old\n";
 
-
     delete Frisky;
-
     return 0;
 }
 

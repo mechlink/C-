@@ -37,8 +37,6 @@ int main()
     const Rectangle *pConstRect = new Rectangle;
     Rectangle * const pConstPtr = new Rectangle;
 
-
-
     cout << "pRect width: "
               << pRect->GetWidth() << " feet\n";
     cout << "pCostRect width: "

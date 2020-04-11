@@ -48,7 +48,7 @@ int main()
 
     cout << "\n "
     pRect->SetWidth(10);
-// Cnnot legally call a non-const member function
+// Cannot legally call a non-const member function
 // pConstRect->SetWidth(10);
     pConstPtr->SetWidth(10);
 

@@ -46,7 +46,7 @@ int main()
     cout << "pConstPtr width: "
               << pConstPtr->GetWidth() << " feet\n";
 
-    cout << "\n "
+    cout << "\n ";
     pRect->SetWidth(10);
 // Cannot legally call a non-const member function
 // pConstRect->SetWidth(10);

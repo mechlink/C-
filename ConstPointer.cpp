@@ -1,6 +1,6 @@
 //
 // Sams Teach yourself C++ in 24 Hours, 6th Edition
-// Using the This pointer
+// Using const pointer
 // Listing 11.5 page 163
 //
 // 11th April 2020

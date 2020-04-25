@@ -3,7 +3,7 @@
 // Passing by Reference
 // Listing 13.1 page 184
 //
-// 22nd April 2020
+// 25th April 2020
 //
 
 #include <iostream>
@@ -37,11 +37,11 @@ SimpleCat* FunctionTwo(SimpleCat *theCat);
 
 int main()
 {
-    cout << "Making a cat ...\n";
+    cout << "Making a cat ... \n" << endl;
     SimpleCat Frisky;
-    cout << "Calling FunctionOne ...\n";
+    cout << "\nCalling FunctionOne ..." << endl;
     FunctionOne(Frisky);
-    cout << "Calling FunctionTwo ...\n";
+    cout << "\nCalling FunctionTwo ..." << endl;
     FunctionTwo(&Frisky);
     return 0;
 }
